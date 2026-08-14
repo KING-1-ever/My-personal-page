@@ -36,7 +36,7 @@ Second, I ran into layout issues. On the Interests and Skills pages, I noticed t
 
 Finally, on the email page, after users submitted their personal information, the page initially failed to redirect to their personal email client. In addition, the webpage originally offered Gmail and QQ Mail as options. However, I found that QQ Mail could not redirect properly. I tried multiple iterations, but the improvements were minimal, so I eventually dropped QQ Mail and switched to Outlook instead. (Note: Gmail requires a VPN/proxy to redirect successfully.)
 ## Show time
-<img width="2522" height="1351" alt="屏幕截图 2026-08-14 164411" src="https://github.com/user-attachments/assets/5f12e93d-402d-4592-ab61-4febd203c2ea" />
+<img width="2522" height="1351" alt="屏幕截图 2026-08-14 164411" src="https://github.com/user-attachments/assets/f1574cbf-2b43-484e-bd9a-5b39dec9de7f" />
 <img width="2525" height="1352" alt="屏幕截图 2026-08-14 164208" src="https://github.com/user-attachments/assets/c267f9f1-1da4-4c5b-a92c-d423dda99fbd" />
 <img width="2532" height="1348" alt="屏幕截图 2026-08-14 164232" src="https://github.com/user-attachments/assets/ec611afe-2664-4c95-a416-29c121d336d1" />
 
