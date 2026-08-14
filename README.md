@@ -35,3 +35,9 @@ The initial issue I encountered was that the webpage's dark and light modes coul
 Second, I ran into layout issues. On the Interests and Skills pages, I noticed that the page layout was problematic, with low space utilization that caused content to display incompletely. I proposed optimization suggestions to Trae and then adjusted the project accordingly.
 
 Finally, on the email page, after users submitted their personal information, the page initially failed to redirect to their personal email client. In addition, the webpage originally offered Gmail and QQ Mail as options. However, I found that QQ Mail could not redirect properly. I tried multiple iterations, but the improvements were minimal, so I eventually dropped QQ Mail and switched to Outlook instead. (Note: Gmail requires a VPN/proxy to redirect successfully.)
+## Show time
+<img width="2532" height="1352" alt="屏幕截图 2026-08-14 164141" src="https://github.com/user-attachments/assets/118919d4-80a0-494c-b9f9-90553af187e1" />
+<img width="2525" height="1352" alt="屏幕截图 2026-08-14 164208" src="https://github.com/user-attachments/assets/c267f9f1-1da4-4c5b-a92c-d423dda99fbd" />
+<img width="2532" height="1348" alt="屏幕截图 2026-08-14 164232" src="https://github.com/user-attachments/assets/ec611afe-2664-4c95-a416-29c121d336d1" />
+
+
