@@ -1,33 +1,37 @@
-# 赛博空间个人名片
+# Cyberpunk Personal Business Card
 
-这是我第一次参加 Vibe Coding 课程时做出的作品，一个能离线打开的个人名片网页。把「我是一个热爱生活、热爱自然的闷骚男大」这句话，硬塞进了一座会下数据雨的赛博都市里。整个页面只有 index.html 一个文件，所有画面、动画、特效都是靠 CSS 和 Canvas 现写的，没有用任何外部图片和字体。
+This is the first project I made during my Vibe Coding course — a personal business card webpage that works fully offline. I basically squeezed the phrase "I'm a low-key nerdy guy who loves life and nature" into a cyberpunk city where it's raining data. The whole page lives in a single index.html file. Every visual, animation, and effect is hand-built with CSS and Canvas — no external images or fonts anywhere.
 
-## 如何运行
+## How to run
 
-把 index.html 下载下来，用浏览器双击打开就能看。不用装环境、不用起服务，纯离线可用。想发邮件给我的时候，联系页面里的 Gmail、Outlook 按钮以及表单才会需要联网。
+Just download index.html and double-click it in your browser. No environment setup, no server needed — it works fully offline. The only parts that need a connection are the contact form and the Gmail / Outlook buttons if you actually want to email me.
 
-## 已完成功能
+## What's already done
 
-下面这些是我写的时候真正做出来、页面里也确实存在的东西：
+These are the things I really built and that actually exist on the page:
 
-- 五个界面：首页、关于、兴趣、技能、联系，在页面内点击导航切换，不需要重新加载。
-- 三套赛博朋克主题，右上角三个色点可以来回切换：经典霓虹、故障艺术、蒸汽波。
-- 日间／夜间模式切换，按钮的图标和文字会跟着变，选择会存在本地，刷新页面后还在。
-- 开机加载动画：进度条引导、打字机效果、内容逐步淡入，营造「系统启动」的感觉。
-- 一些 3D 元素：首页会转的立方体、跟着鼠标倾斜的兴趣卡片、带透视感的网格地面。
-- 动态背景：Canvas 画的细雨、漂浮的发光粒子、霓虹光晕、扫描线和色差等赛博氛围特效。
-- 日间模式换成了中国古典玄幻风格，三套主题分别对应水墨仙侠、青花瓷、敦煌国潮，还加了远山、云雾和朱砂印章这些装饰。
-- 关于页：三张性格卡片（开朗活泼、乐于助人、热爱生活）加上能量条，还有一句座右铭。
-- 兴趣页：高质量游戏（GTA V、COD、我的世界、死亡细胞）、自然美景、热爱海贼王。
-- 技能页：四个进度条，分别是网络爬虫与数据采集、了解 Unity 引擎、Vibe Coding、各种球类运动。
-- 联系页：展示我的邮箱，还有联系表单。表单会校验邮箱格式，点发送能唤起本机邮件客户端，也能用 Gmail 或 Outlook 网页写信发给我。
-- 响应式：手机到桌面都能看，移动端有汉堡菜单，页面不会出现横向滚动条。
-- 无障碍：能用键盘切换页面（左右方向键、Esc 关菜单），主要元素都加了标签，按钮有焦点高亮。
+- Five screens: Home, About, Interests, Skills, and Contact. You switch between them through the navigation without reloading the page.
+- Three cyberpunk themes you can flip between with the three color dots at the top right: Classic Neon, Glitch, and Vaporwave.
+- A day/night mode toggle. The button icon and its label change together, and your choice is saved locally, so it's still there after you refresh the page.
+- A boot-up animation: a progress bar, a typewriter effect, and content that fades in piece by piece, to make it feel like the system is starting up.
+- Some 3D stuff: a spinning cube on the home page, interest cards that tilt to follow your mouse, and a perspective grid floor.
+- A dynamic background: rain drawn on Canvas, floating glowing particles, neon glows, scanlines, and chromatic-aberration effects for that cyberpunk vibe.
+- Day mode switches to a Chinese classical-fantasy style. The three themes map to Ink-wash Xianxia(in Chinese it writes as "仙侠" ), Blue-and-white Porcelain, and Dunhuang Guochao（in Chinese it writes as "国潮"）, with distant mountains, mist, and a cinnabar seal as decoration.
+- About page: three personality cards (cheerful, helpful, loves life) with energy bars, plus a personal motto.
+- Interests page: high-quality games (GTA V, COD, Minecraft, Dead Cells), natural scenery, and my love for One Piece.
+- Skills page: four progress bars — web scraping and data collection, getting to know the Unity engine, Vibe Coding, and ball sports.
+- Contact page: shows my email address plus a contact form. The form validates the email format, and clicking send opens your default email client, or you can compose via Gmail or Outlook webmail instead.
+- Responsive: it works from phones up to desktops, has a hamburger menu on mobile, and the page never gets a horizontal scrollbar.
+- Accessibility: you can switch pages with the keyboard (arrow keys, Esc to close the menu), key elements have labels, and buttons show a visible focus highlight.
 
-## 我的探索
+## What I explored
 
-对于此网页的制作，我使用了trae 这个agent来进行制作，并让其处理和优化了相应的prompt。我负责实现相应的内容填写和页面布局，trae 则负责处理和优化prompt，确保网页的功能和效果符合要求。我与trae进行了多轮对话，不断对项目进行迭代，最终完成了这个网页。
+For the creation of this webpage, I used Trae, an agent, to handle the production, as well as to process and optimize the corresponding prompts. I was responsible for filling in the content and designing the page layout, while Trae took care of processing and refining the prompts to ensure that the webpage's functionality and effects met the requirements. I had multiple rounds of dialogue with Trae, continuously iterating on the project, and finally completed this webpage.
 
-## 遇到的问题
+## Problems I ran into
 
-最开始遇到的问题是网页的夜间和日间模式无法正常切换，两者显示的是同一个界面。我定位了相关问题，向trae提出了预期结果，最后对项目进行更改。其次，我遇到了页面布局的问题，在兴趣页和技能页，我发现页面排版出了问题，空间利用率较低，导致内容显示不完整。我向trae提出了优化建议，最后对项目进行了调整。最后，在邮箱页面，开始时用户提交完个人信息后无法正常跳转到个人邮箱，其次，网页提供的最开始是Gmail和QQ邮箱。但我发现，QQ邮箱无法正常跳转，我尝试多次迭代，发现收效甚微，最终放弃QQ邮箱，转向outlook。（注：Gmail需要使用魔法才能跳转）
+The initial issue I encountered was that the webpage's dark and light modes could not be switched properly—both displayed the same interface. I identified the problem, described the expected outcome to Trae, and ultimately made changes to the project. 
+
+Second, I ran into layout issues. On the Interests and Skills pages, I noticed that the page layout was problematic, with low space utilization that caused content to display incompletely. I proposed optimization suggestions to Trae and then adjusted the project accordingly.
+
+Finally, on the email page, after users submitted their personal information, the page initially failed to redirect to their personal email client. In addition, the webpage originally offered Gmail and QQ Mail as options. However, I found that QQ Mail could not redirect properly. I tried multiple iterations, but the improvements were minimal, so I eventually dropped QQ Mail and switched to Outlook instead. (Note: Gmail requires a VPN/proxy to redirect successfully.)
